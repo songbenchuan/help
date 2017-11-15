@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1.408rem;
+    z-index: 1;
+}
+.ham{
+    position: absolute;
+    top: 50%;
+    right: 0.28rem;
+    margin-top: -0.28rem;
+    width: 0.96rem;
+    height: 0.96rem;
+}
+.ham img{
+    width: 100%;
+}
+.list{
+    position: absolute;
+    top: 1.608rem;
+    right: 0.224rem;
+    width: 4.512rem;
+    height: 11.52rem;
+    background: url("./img/list.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.listhide{
+    display: none;
+}
+#list .listwrapper{
+    width: 4.48rem;
+    margin-top: 0.16rem;
+    overflow: hidden;
+}
+#list .listwrapper a{
+    text-decoration: none;
+    color: #fff;
+}
+#list span{
+    display: block;
+    width: 3.52rem;
+    height: 1.408rem;
+    line-height: 1.408rem;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: .5px solid rgba(255,255,255,0.2);
+}
+.content{
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top: 0.408rem;
+    padding-bottom: 0.96rem;
+}
+.contentlist{
+    position: relative;
+    box-sizing: border-box;
+    width: 10.688rem;
+    margin: 0.96rem auto 0;
+    padding: 0.704rem 0.96rem 0.64rem;
+    border: .5px dashed #999;
+    border-radius: 0.4rem;
+}
+.contentlist .title{
+    position: absolute;
+    top: -0.4rem;
+    left: 50%;
+    margin-left: -1.3rem;
+    padding: 0 0.384rem;
+    font-size: 18px;
+    color: #4e9fef;
+    background-color: #f8f8f8;
+}
+.contentlist .maincontent{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0.544rem;
+}
+.contentlist .pic{
+    width: 100%;
+    margin: 0 auto;
+}
+.contentlist .pic img{
+    width: 100%;
+}
+.contentlist .firstline{
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 0.48rem;
+}
+.contentlist .arrow{
+    width: 0.544rem;
+    height: 0.608rem;
+    margin: 0 auto;
+    margin-bottom: 0.544rem;
+    background: url("./img/arrow.png") no-repeat;
+    background-size: 100% 100%;
+}
