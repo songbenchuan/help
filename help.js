@@ -49,5 +49,9 @@ window.onload = function(){
         var list = document.querySelector("#list")
         list.className = 'listhide';
     }, false)
+    //阻止列表滑动
+    document.getElementById('list').addEventListener('touchmove', function (e) {
+        e.preventDefault()
+    }, false)
 
 }
