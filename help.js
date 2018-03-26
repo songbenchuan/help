@@ -51,6 +51,7 @@ window.onload = function(){
     }, false)
     //阻止列表滑动
     document.getElementById('list').addEventListener('touchmove', function (e) {
+        e.stopPropagation()
         e.preventDefault()
     }, false)
 
