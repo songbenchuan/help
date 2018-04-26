@@ -29,7 +29,7 @@ body{
     top: 1.608rem;
     right: 0.224rem;
     width: 4.512rem;
-    height: 11.52rem;
+    height: 10.112rem;
     background: url("./img/list.png") no-repeat;
     background-size: 100% 100%;
     z-index: 1;
@@ -78,7 +78,7 @@ body{
     position: absolute;
     top: -0.4rem;
     left: 50%;
-    margin-left: -1.3rem;
+    margin-left: -1.6rem;
     padding: 0 0.384rem;
     font-size: 18px;
     color: #4e9fef;
